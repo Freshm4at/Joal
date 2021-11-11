@@ -1,0 +1,14 @@
+version: "2"
+services:
+  joal:
+    image: anthonyraymond/joal
+    container_name: joal
+    restart: unless-stopped
+    env_file:
+        - ./.env
+    volumes:
+      - ${PATH_TO_CONF}:/data
+    ports:
+      - ${PORT}:${PORT}
+    command: ["--joal-conf=/data", "--spring.main.web-environment=true", "--server.port=${PORT}", "--joal.ui.path.prefix=${SECRET_OBFUSCATION_PATH}", "--joal.ui.secret-token=${SECRET_TOKEN}"]
+
