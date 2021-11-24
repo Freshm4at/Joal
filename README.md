@@ -39,5 +39,5 @@ only lauch Joal with run.sh
 - Drap and drop torrents on the web interface
 
 ### Screenshot
-![Alt text](/Joal/screenshot.png?raw=true "Joal running")
+![Alt text](/Joal/blob/main/screenshot.png?raw=true "Joal running")
 
