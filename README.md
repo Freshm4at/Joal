@@ -41,3 +41,18 @@ only lauch Joal with run.sh
 ### Screenshot
 ![Alt text](screenshot.png "Joal running")
 
+### Web interface (UI web)
+If you want a UI web administration of Joal, you can acess to it with the url :
+http://localhost:PORT/SECRET_OBFUSCATION_PATH/ui
+
+after, you need to enter your config setting:
+- click on "change connection setting"
+- enter your SECRET_OBFUSCATION_PATH and your SECRET_TOKEN
+
+### Seeding speed
+you can change it in the config.json file or in the web UI
+
+## Stop Joal
+To stop Joal, just ^C on your terminal.
+
+
