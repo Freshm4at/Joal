@@ -38,5 +38,6 @@ only lauch Joal with run.sh
 - add torrents in the torrent's older
 - Drap and drop torrents on the web interface
 
-
+### Screenshot
+![Alt text](/Joal/screenshot.png?raw=true "Joal running")
 
