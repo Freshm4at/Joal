@@ -23,11 +23,17 @@ Open the ".env" file and change setting like you want
 - SECRET_OBFUSCATION_PATH=VERY_SECURE_PATH
 - SECRET_TOKEN=VERY_SECURE_PASSWORD
 
-NB : Leave PATH_TO_CONF by default '.', change only is you change the location of 'config.json'.
+NB : Leave PATH_TO_CONF by default '.', Change only is you change the location of 'config.json'.
 PORT is the server's port
 
 ## Lauch Joal
-run `sh run.sh` to start your server joal 
+`git clone https://github.com/Freshm4at/Joal/ \
+  cd Joal && sudo sh run.sh`
+
+### Adding torrents
+2 ways : 
+- add torrents in the torrent's older
+- Drap and drop torrents on the web interface
 
 
 
