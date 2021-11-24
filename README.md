@@ -11,7 +11,7 @@ This repo is just a easy way to run Joal
 
 ## Dependencies
 You need docker and docker-compose to run Joal.
-To install deepndencies, run : 
+To install dependencies, run : 
 `sudo apt-get update && sudo apt-get install docker && sudo apt-get install docker-compose`
 
 ## Configuration
