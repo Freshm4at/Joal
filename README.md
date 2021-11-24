@@ -27,9 +27,9 @@ NB : Leave PATH_TO_CONF by default '.', Change only is you change the location o
 PORT is the server's port
 
 ## Lauch Joal
-`git clone https://github.com/Freshm4at/Joal/`
-`cd Joal`
-`sudo sh run.sh`
+- `git clone https://github.com/Freshm4at/Joal/`
+- `cd Joal`
+- `sudo sh run.sh`
 
 only lauch Joal with run.sh
 
