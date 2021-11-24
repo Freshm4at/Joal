@@ -12,7 +12,7 @@ This repo is just a easy way to run Joal
 ## Dependencies
 You need docker and docker-compose to run Joal.
 To install deepndencies, run : 
-`sudo apt-ger update && sudo apt-get install docker && sudo apt-get install docker-compose`
+`sudo apt-get update && sudo apt-get install docker && sudo apt-get install docker-compose`
 
 ## Configuration
 Before running Joal, you need to configure it.
@@ -24,6 +24,7 @@ Open the ".env" file and change setting like you want
 - SECRET_TOKEN=VERY_SECURE_PASSWORD
 
 NB : Leave PATH_TO_CONF by default '.', change only is you change the location of 'config.json'.
+PORT is the server's port
 
 ## Lauch Joal
 run `sh run.sh` to start your server joal 
